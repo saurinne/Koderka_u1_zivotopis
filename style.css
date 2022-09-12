@@ -1,19 +1,55 @@
 body {
     color: white;
     background-color: #696969;
+    margin: 0 20%;
 }
 
-/*nadpisy*/
+/*písma*/
 h1 {
     text-align: center;
 }
 
+a {
+    color: 	#ffa500;
+}
+
 /*obrázky*/
 img {
-    width: 300px;
+    height: 250px;
+}
+
+.zivotopis img {
+    float: left;
+    height: 300px;
+    margin: 0 30px 30px 0;
+    border-radius: 50%;
+}
+
+.karetky img, 
+.vikingknit img {
+    float: right;
+    margin: 0 0 30px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(44, 41, 41, 0.952);
+}
+
+.hreben img,
+.kuze img {
+    float: left;
+    margin: 0 30px 30px 0;
+    border-radius: 10px;
 }
 
 /*sekce*/
 section {
-    padding: 50px 15%;
+    padding: 70px 15%;
+    overflow: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.paticka {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 15%;
+    font-size: 12px;
 }
