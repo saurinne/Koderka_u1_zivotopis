@@ -1,1 +1,19 @@
-/*toto bude css*/
+body {
+    color: white;
+    background-color: #696969;
+}
+
+/*nadpisy*/
+h1 {
+    text-align: center;
+}
+
+/*obrázky*/
+img {
+    width: 300px;
+}
+
+/*sekce*/
+section {
+    padding: 50px 15%;
+}
