@@ -7,7 +7,7 @@ body {
 
 /*písma*/
 h1 {
-    text-align: center;;
+    text-align: center;
 }
 
 a {
@@ -44,7 +44,6 @@ img {
 /*sekce*/
 section {
     padding: 70px 15%;
-    overflow: cover;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
